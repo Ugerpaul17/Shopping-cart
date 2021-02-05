@@ -9,15 +9,17 @@ export const Wrapper = styled.div`
   width: 80%;
   border-radius: 20px;
   height: 80%;
+  
 
   button {
       border-radius: 0 0 20px 20px;
+      background-color: #3F51B5;
   }
 
   img {
-      max-height: 200px;
-      max-width: 200px;
-      object-fit: cover;
+      max-height: 60vh;
+      max-width: 40vh;
+      object-fit: cover; 
       border-radius: 20px 20px 0 0;
   }
 
